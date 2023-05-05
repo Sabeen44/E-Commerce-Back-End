@@ -14,6 +14,7 @@ Product.belongsToMany(Tag, {
     unique: false,
   },
   as: "product_tag",
+  onDelete: "CASCADE",
 });
 
 Tag.belongsToMany(Product, {
@@ -23,6 +24,7 @@ Tag.belongsToMany(Product, {
   },
 
   as: "product_tag",
+  onDelete: "CASCADE",
 });
 
 module.exports = { Category, Product, Tag, ProductTag };
