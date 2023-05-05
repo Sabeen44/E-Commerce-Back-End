@@ -50,4 +50,5 @@ The server is running, now you can make requests through a HTTP/API client such 
 
 ## Questions
 
-Connect on linkedIn
+Connect on:
+www.linkedin.com/in/sabeen-chaudhry
